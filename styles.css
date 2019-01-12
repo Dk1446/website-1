@@ -1,23 +1,80 @@
-body{
-    background-color: black;
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    background-color:  #F5E8D7;
+    font-family: 'Noto Serif', serif;
+}
+
 header{
     font-size: 10px;
     text-align: center;
     color: antiquewhite;
+
 }
 
+/* Navigation bar*/
+
+.navigation li{
+    float: left;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #505B70;
+  }
+
+
+.navigation a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  
+}
+
+.navigation a:hover {
+    background-color: #111;
+  }
+
+
+
+
+
 h1{
+    margin: 45px 45px 45px 45px;
     font-size: 25px;
     text-align: center;
-    color: white;
+    color: #8F223A;
+    text-decoration-line: underline;
 }
 
 p{
-font-size: 15px;
-color: aqua
+    font-size: 15px;
+    color: #000000;
 }
 
 section{
-    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;  
+    text-align: justify;
+    text-indent: 50px;
 }
+
+
+/*footer*/
+
+.footers{
+
+    font-size: 30px;
+
+}
+
+
