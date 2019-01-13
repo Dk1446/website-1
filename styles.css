@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-color:  #00BCD4;
+body {
+    background-color: #00BCD4;
     font-family: 'Noto Serif', serif;
 }
 
-header{
+header {
     font-size: 10px;
     text-align: center;
     color: antiquewhite;
@@ -19,7 +19,7 @@ header{
 
 /* Navigation bar*/
 
-.navigation li{
+.navigation li {
     float: left;
 }
 
@@ -29,28 +29,28 @@ header{
     padding: 0;
     overflow: hidden;
     background-color: #006064;
-  }
+}
 
 
-.navigation a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;  
+.navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .navigation a:hover {
     background-color: #80DEEA;
     color: #000000;
     font-weight: 800;
-  }
+}
 
 
 
 
 
-h1{
+h1 {
     font-family: 'Noto Serif', serif;
     font-weight: 800;
     line-height: 1.6;
@@ -62,27 +62,25 @@ h1{
     text-decoration-line: underline;
 }
 
-p{
+p {
     font-size: 15px;
     color: #000000;
 }
 
-section{
-    
+section {
+
     padding: 20px;
     text-align: justify;
-    
+
 }
 
 
 /*footer*/
 
-.footer{
+.footer {
 
     padding: 20px;
     border: 1px solid black;
 
 
 }
-
-
