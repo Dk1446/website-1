@@ -26,6 +26,7 @@ body {
     background-color: #D4E157;
     
     
+    
 }
 
 .navigation ul {/* the color is for the bar next to li element*/
@@ -34,6 +35,8 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #C0CA33; 
+    
+    
     
 }
 
@@ -49,7 +52,7 @@ body {
 
 .navigation a:hover {
     
-    background-color: #8BC34A;
+    background-color: #7986CB;
     color: #000000;
     font-weight: 800;
     opacity: 1;
@@ -72,9 +75,11 @@ h1 {
 }
 
 p {
+    
     font-size: 15px;
     color: #000000;
     padding-top: 20px;
+
 }
 
 section {
