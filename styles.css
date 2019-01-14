@@ -23,6 +23,7 @@ header {
 .navigation li {
     float: left;
     opacity: .5;
+    color: blue;
 }
 
 .navigation ul {
@@ -30,7 +31,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #006064;
+    background-color: #000;
 }
 
 
@@ -43,8 +44,9 @@ header {
 }
 
 .navigation a:hover {
-    background-color: #80DEEA;
-    color: #ffffff;
+    
+    background-color: #006064;
+    color: #fff;
     font-weight: 800;
     opacity: 1;
 }
