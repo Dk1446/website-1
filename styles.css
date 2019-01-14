@@ -10,12 +10,12 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-header {
+/*header {
     font-size: 10px;
     text-align: center;
     color: antiquewhite;
 
-}
+}*/
 
 
 /* Navigation bar*/
@@ -49,10 +49,11 @@ header {
 
 .navigation a:hover {
     
-    background-color: #CDC394;
+    background-color: #8BC34A;
     color: #000000;
     font-weight: 800;
     opacity: 1;
+    
 }
 
 
@@ -67,11 +68,13 @@ h1 {
     text-align: center;
     color: #000;
     text-decoration-line: underline;
+    padding-top: 10px;
 }
 
 p {
     font-size: 15px;
     color: #000000;
+    padding-top: 20px;
 }
 
 section {
