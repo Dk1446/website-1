@@ -29,6 +29,7 @@ body {
     font-family: 'Cantarell', sans-serif;
     font-weight: 700;
     
+    
 
 
 
@@ -42,6 +43,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #C0CA33; 
+    box-shadow:0 2px 3px grey;
    
 
 
